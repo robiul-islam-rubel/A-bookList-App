@@ -35,6 +35,8 @@ btn.addEventListener('click', function( e){
         newPrice.innerHTML=price.value;
         newRow.appendChild(newPrice);
 
+        bookList.appendChild(newRow);
+
     }
 
 });
